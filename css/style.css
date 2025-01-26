@@ -8672,7 +8672,7 @@ textarea.textarea-lg {
 
 .footer-corporate {
 	text-align: center;
-	background: #162e44;
+	background: #1e1200;
 }
 
 .footer-corporate h6 {
@@ -8814,9 +8814,10 @@ textarea.textarea-lg {
 }
 
 .footer-corporate-bottom-panel {
-	padding: 30px 0;
-	background: #11263a;
+	padding: 15px 0;
+	background: #1e1200;
 	color: rgba(255, 255, 255, 0.3);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .footer-minimal {
@@ -17185,7 +17186,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #1e1200;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
