@@ -209,7 +209,7 @@ h3,
 
 h4,
 .heading-4 {
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 1.2;
 }
 
@@ -14768,7 +14768,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 120px;
-	max-height: 68px;
+	max-height: 48px;
 	width: auto;
 	height: auto;
 	/* background-color: red; */
@@ -24896,8 +24896,8 @@ img.mfp-img {
 
 @media (max-width: 768px) {
 	.fotter_logo img {
-		width: 225px;
-		height: 36px;
+		width: 200px;
+		/* height: 36px; */
 	}
 }
 
