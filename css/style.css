@@ -1113,6 +1113,7 @@ a[href*='tel'], a[href*='mailto'] {
 	min-height: 310px;
 	box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.695);
 	transition: all .3s ease;
+	border-radius: 15px;
 }
 
 .box-contacts-body {
@@ -12991,9 +12992,9 @@ p.rights a:hover {
 
 @media (min-width: 992px) {
 	.box-width-lg-470 {
-		max-width: 470px;
+		/* max-width: 470px;
 		margin-left: auto;
-		margin-right: auto;
+		margin-right: auto; */
 	}
 }
 
@@ -14773,6 +14774,15 @@ html.tablet .ui-to-top {
 	/* background-color: red; */
 	/* padding-top: 2px; */
 }
+
+.rd-navbar-brand a.brand {
+	display: flex;
+	align-items: center;
+  }
+  
+  .rd-navbar-brand a.brand h4 {
+	margin-left: 10px;
+  }
 
 @media (min-width: 576px) {
 	.rd-navbar-fixed .rd-navbar-brand img {
@@ -17168,15 +17178,15 @@ html.rd-navbar-fixed-linked .page {
 
 @media (min-width: 1200px) {
 	.rd-navbar-corporate.rd-navbar-static .rd-navbar-aside {
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
 @media (min-width: 1600px) {
 	.rd-navbar-corporate.rd-navbar-static .rd-navbar-aside {
-		padding-top: 28px;
-		padding-bottom: 28px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
@@ -17203,14 +17213,14 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
-	max-width: 200px;
-	max-height: 170px;
+	max-width: 85px;
+	/* max-height: 170px; */
 }
 
 @media (min-width: 1200px) {
 	.rd-navbar-corporate.rd-navbar-static .rd-navbar-brand img {
-		max-width: 225px;
-		max-height: 190px;
+		max-width: 100px;
+		/* max-height: 190px; */
 	}
 }
 
