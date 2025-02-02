@@ -115,9 +115,10 @@ h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 600;
-	font-family: "Montserrat", sans-serif, Arial, sans-serif;
+	/* font-family: "Montserrat", sans-serif, Arial, sans-serif; */
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	letter-spacing: normal;
-	color: #151515;
+	color: #2a1e00;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class*='heading-'] a {
@@ -826,6 +827,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic::before {
+	border-radius: 15px;
 	position: absolute;
 	content: '';
 	top: 0;
@@ -854,7 +856,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-classic-icon {
-	font-size: 36px;
+	font-size: 25px;
 	line-height: 1;
 	color: #01b3a7;
 	transition: all .2s ease-in-out;
@@ -1110,7 +1112,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 310px;
+	min-height: 250px;
 	box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.695);
 	transition: all .3s ease;
 	border-radius: 15px;
@@ -1150,7 +1152,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 @media (min-width: 992px) {
 	.desktop .box-contacts {
-		box-shadow: none;
+		/* box-shadow: none; */
 		border: 3px solid #e1e1e1;
 	}
 	.desktop .box-contacts-decor {
